@@ -1,4 +1,3 @@
-Day 1: Understand the Project
+Day 1
 
-A website where users can see movies, pick one, select seats, and book tickets.
-You also write down the features and plan how many pages you’ll make.
+I began my internship by learning what I had to do: build a movie ticket booking website. I listed out the features I wanted, like showing movies, viewing movie details, booking tickets, selecting seats, and creating an admin panel to manage movies.
