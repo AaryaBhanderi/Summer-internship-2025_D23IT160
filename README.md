@@ -10,3 +10,7 @@ I drew a rough sketch of how my website will have a homepage, movie details page
 Day 3
 
 I created folders for my project and added HTML, CSS, and JavaScript files. I also installed Node.js and Express to set up my backend and created a sample movies.json file.
+
+Day 4
+
+I designed the homepage using HTML and CSS. I added a few hardcoded movie cards to test how they look on the screen.
