@@ -14,3 +14,7 @@ I created folders for my project and added HTML, CSS, and JavaScript files. I al
 Day 4
 
 I designed the homepage using HTML and CSS. I added a few hardcoded movie cards to test how they look on the screen.
+
+Day 5
+
+I created the movie.html page to show the full details of a selected movie. I also added some sample content for now.
