@@ -24,3 +24,7 @@ I created the movie.html page to show the full details of a selected movie. I al
 Day 6
 
 I started building the backend using Node.js and Express. I created APIs to send movie data from the movies.json file to the frontend.
+
+Day 7
+
+I connected the frontend with the backend using fetch() in JavaScript. Now, the movie list on the homepage is coming from the backend.
