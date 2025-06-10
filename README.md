@@ -31,3 +31,7 @@ I connected the frontend with the backend using fetch() in JavaScript. Now, the 
 Day 8
 
 I made the movie cards dynamic. They now display based on the data from the backend. Clicking a card takes the user to the movie details page.
+
+Day 9
+
+I worked on movie.html to show details of the selected movie using URL parameters and JavaScript. I also added showtime selection.
