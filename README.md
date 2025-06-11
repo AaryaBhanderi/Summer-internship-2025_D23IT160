@@ -35,3 +35,7 @@ I made the movie cards dynamic. They now display based on the data from the back
 Day 9
 
 I worked on movie.html to show details of the selected movie using URL parameters and JavaScript. I also added showtime selection.
+
+Day 10
+
+I built the seat selection layout using buttons for seats. Clicking on a seat changes its color to show it’s selected.
