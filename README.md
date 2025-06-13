@@ -39,3 +39,11 @@ I worked on movie.html to show details of the selected movie using URL parameter
 Day 10
 
 I built the seat selection layout using buttons for seats. Clicking on a seat changes its color to show it’s selected.
+
+Day 11
+
+I made a booking summary page that shows movie name, showtime, selected seats, and total cost after seat selection.
+
+Day 12
+
+I created login and signup pages. I used localStorage to store user information since I’m not using a real database.
