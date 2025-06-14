@@ -47,3 +47,7 @@ I made a booking summary page that shows movie name, showtime, selected seats, a
 Day 12
 
 I created login and signup pages. I used localStorage to store user information since I’m not using a real database.
+
+Day 13
+
+I used CSS media queries to make the website look good on phones and tablets. Now it’s responsive.
