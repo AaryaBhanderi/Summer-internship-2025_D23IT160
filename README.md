@@ -51,3 +51,7 @@ I created login and signup pages. I used localStorage to store user information 
 Day 13
 
 I used CSS media queries to make the website look good on phones and tablets. Now it’s responsive.
+
+Day 14
+
+I tested the site like a user. I clicked all buttons, tested the forms, and fixed small layout issues and bugs.
