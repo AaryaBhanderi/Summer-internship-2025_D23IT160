@@ -55,3 +55,7 @@ I used CSS media queries to make the website look good on phones and tablets. No
 Day 14
 
 I tested the site like a user. I clicked all buttons, tested the forms, and fixed small layout issues and bugs.
+
+Day 15
+
+I worked on improving the backend. I made sure /movies and /movies/:id APIs return correct data by reading from the JSON file.
