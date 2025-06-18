@@ -59,3 +59,7 @@ I tested the site like a user. I clicked all buttons, tested the forms, and fixe
 Day 15
 
 I worked on improving the backend. I made sure /movies and /movies/:id APIs return correct data by reading from the JSON file.
+
+Day 16
+
+I added a new API for booking. It stores selected seats and movie info into a JSON file when a user confirms booking.
