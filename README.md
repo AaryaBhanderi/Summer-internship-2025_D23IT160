@@ -63,3 +63,7 @@ I worked on improving the backend. I made sure /movies and /movies/:id APIs retu
 Day 16
 
 I added a new API for booking. It stores selected seats and movie info into a JSON file when a user confirms booking.
+
+Day 17
+
+I updated the system to remember booked seats and show them as unavailable next time the same movie is booked.
