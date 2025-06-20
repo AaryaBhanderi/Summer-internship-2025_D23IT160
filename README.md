@@ -1,4 +1,4 @@
-start date 30/05/2025
+start date 15/05/2025
 
 Day 1
 
@@ -67,3 +67,57 @@ I added a new API for booking. It stores selected seats and movie info into a JS
 Day 17
 
 I updated the system to remember booked seats and show them as unavailable next time the same movie is booked.
+
+Day 18
+
+Now the booking logic is working properly. Once seats are booked, they can’t be selected again.
+
+Day 19
+
+I added a "My Bookings" section where users can see their past bookings, based on the user logged in using localStorage.
+
+Day 20
+
+I cleaned up my JavaScript code, removed unused parts, and added checks to show errors if users skip steps like not choosing seats.
+
+Day 21
+
+I tested my backend APIs using Postman to make sure all responses are correct. I fixed a few bugs in the movie booking logic.
+
+Day 22
+
+I created a simple admin login page. If the admin enters the correct password, it shows the admin dashboard.
+
+Day 23
+
+I built a form in the admin panel to add new movies. The form adds movie data into the movies.json file.
+
+Day 24
+
+I updated movie data structure to support showtimes and added features for the admin to manage them.
+
+Day 25
+
+I created a fake payment form. It simulates the payment process and shows "Payment Successful" after a few seconds.
+
+Day 26
+
+After payment, I showed a booking confirmation message with all details. I also added a "Download Ticket" button.
+
+Day 27
+
+I added a search bar on the homepage so users can search for a movie by name. I also added a genre filter.
+
+Day 28
+
+I did a full website test again, fixed last-minute bugs, and cleaned up both frontend and backend code.
+
+Day 29
+
+I deployed my frontend on GitHub Pages and backend on Render. I tested the live version to make sure everything works online.
+
+Day 30
+
+Today was the final day. I wrote a report about everything I did, added screenshots of the project, and gave a demo of how my website works. I also explained what I learned during this journey.
+
+
