@@ -1,123 +1,174 @@
-start date 15/05/2025
+📝 Internship Daily Log
+🧑‍💻 Intern: Aarya Bhanderi
+🏢 Organization: DIsolutions
+🗓️ Duration: May 15 – June 15, 2025
+💻 Tech Stack: React.js, HTML, CSS, Node.js, MongoDB
 
-Day 1
+📅 Daily Progress
+Week 1
+✅ Day 1 – May 15, 2025
+Started internship orientation.
+Discussed the project roadmap: an Online Bookstore Web App using React.js.
+Revised frontend basics:
+Semantic HTML
+CSS box model
+Bootstrap 5 grid system and layout
+Set up VS Code and development tools for React.
 
-I began my internship by learning what I had to do: build a movie ticket booking website. I listed out the features I wanted, like showing movies, viewing movie details, booking tickets, selecting seats, and creating an admin panel to manage movies.
+✅ Day 2 – May 16, 2025
+Learned JavaScript ES6+ concepts relevant to React:
+Arrow functions, destructuring
+let, const, template literals
+Array methods (map, filter, reduce)
+Practiced by building small reusable functions for the project.
 
-Day 2
+✅ Day 3 – May 17, 2025
+Set up React environment using create-react-app.
+Installed dependencies:
+react-router-dom
+bootstrap
+Created folder structure for components and pages.
+Designed homepage layout using Bootstrap and custom CSS.
 
-I drew a rough sketch of how my website will have a homepage, movie details page, seat booking, and admin panel. It helped me visualize the structure.
+✅ Day 4 – May 18, 2025
+Built the Navbar component using React Bootstrap.
+Created routing for:
+Home
+Books
+Cart
+About
+Used <BrowserRouter> and <Routes> for smooth navigation.
 
-Day 3
+✅ Day 5 – May 19, 2025
+Created the BookCard component.
+Rendered dummy book data using props.
+Designed book list grid using Bootstrap columns.
+Mentor provided feedback on component reusability.
 
-I created folders for my project and added HTML, CSS, and JavaScript files. I also installed Node.js and Express to set up my backend and created a sample movies.json file.
+✅ Day 6 – May 20, 2025 & ✅ Day 7 – May 21, 2025
+⛱️ Holiday (Saturday & Sunday)
 
-Day 4
+Week 2
+✅ Day 8 – May 22, 2025
+Added Book Details Page with dynamic route (/book/:id).
+Used useParams() from react-router-dom.
+Displayed:
+Description
+Author
+Price
+Created “Back to books” navigation.
 
-I designed the homepage using HTML and CSS. I added a few hardcoded movie cards to test how they look on the screen.
+✅ Day 9 – May 23, 2025
+Created CartContext using React.createContext() to manage cart globally.
+Added “Add to Cart” button functionality.
+Updated cart icon with item count in the navbar.
 
-Day 5
+✅ Day 10 – May 24, 2025
+Built the Cart Page layout.
+Displayed:
+Book name
+Quantity
+Price
+Enabled remove-from-cart function using filter.
+Displayed total cart price dynamically.
 
-I created the movie.html page to show the full details of a selected movie. I also added some sample content for now.
+✅ Day 11 – May 25, 2025
+Implemented Search functionality on book listing page.
+Used useState to filter books in real-time.
+Added responsive search bar inside the navbar.
 
-Day 6
+✅ Day 12 – May 26, 2025
+Worked on Category filter (e.g., Fiction, Technology, Biography).
+Books filtered using checkboxes and displayed using filter() method.
+Enhanced UI with category badges and colors.
 
-I started building the backend using Node.js and Express. I created APIs to send movie data from the movies.json file to the frontend.
+✅ Day 13 – May 27, 2025
+Set up backend using Node.js and Express.
+Created a basic API endpoint for fetching book data.
+Installed dependencies: express, cors, mongoose.
 
-Day 7
+✅ Day 14 – May 28, 2025
+Connected frontend to backend using Axios.
+Fetched book data from Express API and rendered it in React.
+Replaced static JSON data with dynamic API response.
 
-I connected the frontend with the backend using fetch() in JavaScript. Now, the movie list on the homepage is coming from the backend.
+✅ Day 15 – May 29, 2025
+Connected backend to MongoDB Atlas.
+Created schema and model for books using Mongoose.
+Populated database with sample book documents.
 
-Day 8
+Week 3
+✅ Day 16 – May 30, 2025
+Added backend API routes:
+Get all books
+Get book by ID
+Tested APIs with Postman.
+React frontend now fetches real-time book details from MongoDB.
 
-I made the movie cards dynamic. They now display based on the data from the backend. Clicking a card takes the user to the movie details page.
+✅ Day 17 – May 31, 2025
+Started user authentication:
+Created login & signup forms in React
+Used axios.post() to send credentials
+Backend:
+Created routes using Express
+Used bcryptjs for password hashing
 
-Day 9
+✅ Day 18 – June 1, 2025
+Implemented JWT-based login system
+On successful login, token stored in localStorage
+Protected routes using conditional rendering
+Added logout functionality with clear token logic
 
-I worked on movie.html to show details of the selected movie using URL parameters and JavaScript. I also added showtime selection.
+✅ Day 19 – June 2, 2025
+Created User Profile Page
+Fetched and displayed user info using token
+Added Edit Profile form
+Started styling the UI with Bootstrap cards
 
-Day 10
+✅ Day 20 – June 3, 2025 & ✅ Day 21 – June 4, 2025
+⛱️ Holiday (Saturday & Sunday)
 
-I built the seat selection layout using buttons for seats. Clicking on a seat changes its color to show it’s selected.
+✅ Day 22 – June 5, 2025
+Created Admin Dashboard layout
+Built pages to:
+Add Book
+Edit Book
+Delete Book
+Designed form using Bootstrap
 
-Day 11
+✅ Day 23 – June 6, 2025
+Connected Admin forms with backend APIs
+Used axios.post() to insert books into MongoDB
+Handled cover image upload using multer in Node.js
 
-I made a booking summary page that shows movie name, showtime, selected seats, and total cost after seat selection.
+✅ Day 24 – June 7, 2025
+Added Edit Book functionality using book ID
+Prefilled form fields using useEffect()
+Updated book records in MongoDB with PUT API
 
-Day 12
+✅ Day 25 – June 8, 2025
+Completed Delete Book feature
+Displayed success message after deletion
+Implemented confirmation popup before delete action
 
-I created login and signup pages. I used localStorage to store user information since I’m not using a real database.
+✅ Day 26 – June 9, 2025
+Improved overall site responsiveness
+Tested all routes and forms
+Fixed issues with protected routes and conditional rendering
 
-Day 13
+✅ Day 27 – June 10, 2025 & ✅ Day 28 – June 11, 2025
+⛱️ Holiday (Saturday & Sunday)
 
-I used CSS media queries to make the website look good on phones and tablets. Now it’s responsive.
+✅ Day 29 – June 12, 2025
+Added User Review System for books
+Users can submit:
+Review
+Rating
+Stored reviews in MongoDB and displayed them with each book
 
-Day 14
-
-I tested the site like a user. I clicked all buttons, tested the forms, and fixed small layout issues and bugs.
-
-Day 15
-
-I worked on improving the backend. I made sure /movies and /movies/:id APIs return correct data by reading from the JSON file.
-
-Day 16
-
-I added a new API for booking. It stores selected seats and movie info into a JSON file when a user confirms booking.
-
-Day 17
-
-I updated the system to remember booked seats and show them as unavailable next time the same movie is booked.
-
-Day 18
-
-Now the booking logic is working properly. Once seats are booked, they can’t be selected again.
-
-Day 19
-
-I added a "My Bookings" section where users can see their past bookings, based on the user logged in using localStorage.
-
-Day 20
-
-I cleaned up my JavaScript code, removed unused parts, and added checks to show errors if users skip steps like not choosing seats.
-
-Day 21
-
-I tested my backend APIs using Postman to make sure all responses are correct. I fixed a few bugs in the movie booking logic.
-
-Day 22
-
-I created a simple admin login page. If the admin enters the correct password, it shows the admin dashboard.
-
-Day 23
-
-I built a form in the admin panel to add new movies. The form adds movie data into the movies.json file.
-
-Day 24
-
-I updated movie data structure to support showtimes and added features for the admin to manage them.
-
-Day 25
-
-I created a fake payment form. It simulates the payment process and shows "Payment Successful" after a few seconds.
-
-Day 26
-
-After payment, I showed a booking confirmation message with all details. I also added a "Download Ticket" button.
-
-Day 27
-
-I added a search bar on the homepage so users can search for a movie by name. I also added a genre filter.
-
-Day 28
-
-I did a full website test again, fixed last-minute bugs, and cleaned up both frontend and backend code.
-
-Day 29
-
-I deployed my frontend on GitHub Pages and backend on Render. I tested the live version to make sure everything works online.
-
-Day 30
-
-Today was the final day. I wrote a report about everything I did, added screenshots of the project, and gave a demo of how my website works. I also explained what I learned during this journey.
-
-
+✅ Day 30 – June 13, 2025
+Finalized all modules:
+Book Browsing
+Add to Cart
+User Auth
+Admin Panel
