@@ -10,22 +10,30 @@ Week 1
 Started internship orientation.
 Discussed the project roadmap: an Online Bookstore Web App using React.js.
 Revised frontend basics:
+
 Semantic HTML
+
 CSS box model
+
 Bootstrap 5 grid system and layout
 Set up VS Code and development tools for React.
 
 ✅ Day 2 – May 16, 2025
 Learned JavaScript ES6+ concepts relevant to React:
+
 Arrow functions, destructuring
+
 let, const, template literals
+
 Array methods (map, filter, reduce)
 Practiced by building small reusable functions for the project.
 
 ✅ Day 3 – May 17, 2025
 Set up React environment using create-react-app.
 Installed dependencies:
+
 react-router-dom
+
 bootstrap
 Created folder structure for components and pages.
 Designed homepage layout using Bootstrap and custom CSS.
@@ -33,9 +41,13 @@ Designed homepage layout using Bootstrap and custom CSS.
 ✅ Day 4 – May 18, 2025
 Built the Navbar component using React Bootstrap.
 Created routing for:
+
 Home
+
 Books
+
 Cart
+
 About
 Used <BrowserRouter> and <Routes> for smooth navigation.
 
@@ -53,8 +65,11 @@ Week 2
 Added Book Details Page with dynamic route (/book/:id).
 Used useParams() from react-router-dom.
 Displayed:
+
 Description
+
 Author
+
 Price
 Created “Back to books” navigation.
 
@@ -66,8 +81,11 @@ Updated cart icon with item count in the navbar.
 ✅ Day 10 – May 24, 2025
 Built the Cart Page layout.
 Displayed:
+
 Book name
+
 Quantity
+
 Price
 Enabled remove-from-cart function using filter.
 Displayed total cart price dynamically.
@@ -100,29 +118,41 @@ Populated database with sample book documents.
 Week 3
 ✅ Day 16 – May 30, 2025
 Added backend API routes:
+
 Get all books
+
 Get book by ID
 Tested APIs with Postman.
 React frontend now fetches real-time book details from MongoDB.
 
 ✅ Day 17 – May 31, 2025
 Started user authentication:
+
 Created login & signup forms in React
+
 Used axios.post() to send credentials
 Backend:
+
 Created routes using Express
+
 Used bcryptjs for password hashing
 
 ✅ Day 18 – June 1, 2025
 Implemented JWT-based login system
+
 On successful login, token stored in localStorage
+
 Protected routes using conditional rendering
+
 Added logout functionality with clear token logic
 
 ✅ Day 19 – June 2, 2025
 Created User Profile Page
+
 Fetched and displayed user info using token
+
 Added Edit Profile form
+
 Started styling the UI with Bootstrap cards
 
 ✅ Day 20 – June 3, 2025 & ✅ Day 21 – June 4, 2025
@@ -131,8 +161,11 @@ Started styling the UI with Bootstrap cards
 ✅ Day 22 – June 5, 2025
 Created Admin Dashboard layout
 Built pages to:
+
 Add Book
+
 Edit Book
+
 Delete Book
 Designed form using Bootstrap
 
@@ -162,13 +195,19 @@ Fixed issues with protected routes and conditional rendering
 ✅ Day 29 – June 12, 2025
 Added User Review System for books
 Users can submit:
+
 Review
+
 Rating
 Stored reviews in MongoDB and displayed them with each book
 
 ✅ Day 30 – June 13, 2025
 Finalized all modules:
+
 Book Browsing
+
 Add to Cart
+
 User Auth
+
 Admin Panel
