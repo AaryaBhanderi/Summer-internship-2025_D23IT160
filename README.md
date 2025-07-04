@@ -137,10 +137,4 @@
 - Submitted project for mentor review and demo preparation.
 
 
- 🏁 Project Status
 
-> ✅ Completed on June 13, 2025
-
-
-
-Let me know if you'd like this turned into a downloadable `.md` file or directly uploaded to your GitHub repository!
